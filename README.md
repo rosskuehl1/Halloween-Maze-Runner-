@@ -4,7 +4,7 @@
 
 A bite-sized, spooky maze runner built with Unity. It’s “2.5D”: fully 3D world with a slightly tilted top‑down camera. Mobile‑first controls (on‑screen joystick + dash button), candy pickups, chasing ghosts, and a countdown to escape.
 
-Game Features
+## Game Features
 
 Procedural mazes (fast backtracker) sized for mobile.
 
@@ -17,3 +17,7 @@ Ghosts patrol and chase if they see you.
 Exit gate unlocks after you collect N candies.
 
 Win/lose screens, simple SFX hooks, optional haptics.
+
+### Unity Version
+
+Tested with Unity 2021 LTS+ using built‑in pipeline (no URP requirement). Uses standard CharacterController, Physics, and UI (UGUI).
